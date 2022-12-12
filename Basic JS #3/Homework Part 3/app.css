@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(50, 50, 185);
+  font-family: sans-serif;
+}
+.btn {
+  background-color: rgb(95, 90, 90);
+  color: whitesmoke;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.btn-container {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.btn:hover {
+  scale: 1.1;
+  background-color: black;
+}
