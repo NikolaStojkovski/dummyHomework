@@ -1,0 +1,14 @@
+const mainHeading = document.querySelector("#mainHeading");
+mainHeading.textContent = "Main Heading text change";
+const paragraph = document.querySelector(".paragraph");
+paragraph.textContent = "I changed the text content in this paragraph . ";
+const paragraphSecond = document.querySelector(".paragraph-second");
+paragraphSecond.textContent = "This is the second paragraph text change";
+const allText = document.querySelector("text");
+allText.textContent = "This is querySelector that selected all the TEXT line";
+const allDiv = document.querySelectorAll("div");
+const lastDiv = allDiv[2];
+const lastDivHeading = lastDiv.firstElementChild;
+lastDivHeading.textContent = "I changed it";
+const lastDivHeadingThree = lastDiv.lastElementChild;
+lastDivHeadingThree.textContent = "I also changed that!";
