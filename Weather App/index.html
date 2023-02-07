@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section class="nav-bar">
+      <div class="brand">
+        <img
+          src="/IMages/download-removebg-preview.png"
+          alt="LOGO"
+          class="logo"
+        />
+        <h4>Weather App</h4>
+      </div>
+      <div class="search">
+        <input type="text" class="search-box" placeholder="Search" />
+        <div class="search-button">
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <ul class="link-list">
+        <li class="home-btn btn hover-filled-slide-down">Home</li>
+        <li class="hourly-btn btn hover-filled-slide-down">Hourly</li>
+        <li class="about-us-btn btn hover-filled-slide-down">About Us</li>
+      </ul>
+    </section>
+    <main class="main-panel">
+      <div class="weather-container">
+        <div class="first-part">
+          <div class="container">
+            <div class="left-part">
+              <h1 class="city-name">Skopje</h1>
+
+              <span class="date"></span>
+              <h2 class="temp">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 1024 1024"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M811.4 418.7C765.6 297.9 648.9 212 512.2 212S258.8 297.8 213 418.6C127.3 441.1 64 519.1 64 612c0 110.5 89.5 200 199.9 200h496.2C870.5 812 960 722.5 960 612c0-92.7-63.1-170.7-148.6-193.3z"
+                  ></path>
+                </svg>
+                20°C Cloudy
+              </h2>
+              <p>Feels Like</p>
+              <h2 class="feels-like">10°C</h2>
+            </div>
+            <div class="right-part">
+              <h2 class="humidity">Humidity: 50%</h2>
+              <div class="line"></div>
+              <h2 class="wind-speed">Wind Speed: 5 km/h</h2>
+              <div class="line"></div>
+              <h2 class="description"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="daily-container"></div>
+      <!-- <div class="daily"></div> -->
+    </main>
+  </body>
+</html>
