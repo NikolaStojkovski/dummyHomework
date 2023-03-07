@@ -1,0 +1,86 @@
+[
+  {
+    "username": "Nikola",
+    "password": "testpassword",
+    "age": 18,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Darko",
+    "password": "testpassword1",
+    "age": 20,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Jovan",
+    "password": "testpassword2",
+    "age": 19,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Aleksandar",
+    "password": "testpassword4",
+    "age": 42,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "David",
+    "password": "testpassword8",
+    "age": 16,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Dragan",
+    "password": "testpassword9",
+    "age": 19,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Nikola",
+    "password": "testpassword",
+    "age": 18,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Darko",
+    "password": "testpassword1",
+    "age": 20,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Jovan",
+    "password": "testpassword2",
+    "age": 19,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Aleksandar",
+    "password": "testpassword4",
+    "age": 42,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "David",
+    "password": "testpassword8",
+    "age": 16,
+    "isActive": true,
+    "date": "06.03.2023"
+  },
+  {
+    "username": "Dragan",
+    "password": "testpassword9",
+    "age": 19,
+    "isActive": true,
+    "date": "06.03.2023"
+  }
+]

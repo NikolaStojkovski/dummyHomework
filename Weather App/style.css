@@ -43,11 +43,18 @@ body {
   border-radius: 50px;
   padding-left: 10px;
   background-color: rgb(230, 230, 106, 0.7);
+  height: 1.4rem;
+}
+.search-button:hover {
+  background-color: rgb(230, 230, 106, 0.7);
 }
 .search-box:focus {
-  border: 2px solid rgb(230, 230, 106, 0.7);
+  outline: none;
 }
 .search-button {
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
